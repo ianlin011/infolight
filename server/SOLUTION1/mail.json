@@ -9,26 +9,5 @@
     "attachments": [],
     "fromName": "",
     "type": "infomail"
-  },
-  {
-    "id": "InfoCommand1",
-    "commandText": "",
-    "commandType": "text",
-    "database": "",
-    "runtimeDatabase": "",
-    "keys": "",
-    "secStyle": "none",
-    "secField": "",
-    "secExcept": "",
-    "siteField": "",
-    "selectPaging": false,
-    "descent": false,
-    "cacheData": false,
-    "cacheTTL": 1440,
-    "parameters": [],
-    "nonlogon": false,
-    "onBeforeExecuteSQL": "",
-    "onAfterExecuteSQL": "",
-    "type": "infocommand"
   }
 ]
