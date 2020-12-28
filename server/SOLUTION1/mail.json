@@ -1,0 +1,13 @@
+[
+  {
+    "id": "InfoMail1",
+    "subject": "",
+    "body": "",
+    "to": "",
+    "bCC": "",
+    "cC": "",
+    "attachments": [],
+    "fromName": "",
+    "type": "infomail"
+  }
+]

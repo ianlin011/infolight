@@ -1,0 +1,1 @@
+[{"id":"合約測試","commandText":"SELECT 合約編號,日期,名字,大學 FROM [合約測試]","keys":"合約編號","type":"infocommand","selectPaging":true},{"id":"uc合約測試","infocommand":"合約測試","type":"updatecomponent"}]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "客戶資料表",
+    "commandText": "SELECT * FROM 客戶資料表\n",
+    "commandType": "text",
+    "database": "",
+    "runtimeDatabase": "",
+    "keys": "客戶編號",
+    "secStyle": "none",
+    "secField": "",
+    "secExcept": "",
+    "siteField": "",
+    "selectPaging": true,
+    "descent": false,
+    "cacheData": false,
+    "cacheTTL": 1440,
+    "parameters": [],
+    "nonlogon": false,
+    "onBeforeExecuteSQL": "",
+    "onAfterExecuteSQL": "",
+    "type": "infocommand"
+  },
+  {
+    "id": "uc客戶資料表",
+    "infocommand": "客戶資料表",
+    "fields": [],
+    "rowsAffectCheck": true,
+    "updateIfExists": false,
+    "isolationLevel": "readCommitted",
+    "onBeforeInsert": "",
+    "onBeforeUpdate": "",
+    "onBeforeDelete": "",
+    "onBeforeApply": "",
+    "onAfterInsert": "",
+    "onAfterUpdate": "",
+    "onAfterDelete": "",
+    "onAfterApply": "",
+    "onAfterApplied": "",
+    "type": "updatecomponent"
+  }
+]

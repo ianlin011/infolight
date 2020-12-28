@@ -1,0 +1,1 @@
+[{"id":"測試SIZE_EXCEL","commandText":"SELECT 編號,名稱,電話,地址 FROM [測試SIZE_EXCEL]","keys":"編號","type":"infocommand","selectPaging":true},{"id":"uc測試SIZE_EXCEL","infocommand":"測試SIZE_EXCEL","type":"updatecomponent"}]

@@ -1,0 +1,1 @@
+[{"id":"物品列表","commandText":"SELECT 編號,名稱,保管人,保管地點,保管日期,價值,電話,備註 FROM [物品列表]","keys":"編號","type":"infocommand","selectPaging":true},{"id":"uc物品列表","infocommand":"物品列表","type":"updatecomponent"}]

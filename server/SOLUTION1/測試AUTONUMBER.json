@@ -1,0 +1,1 @@
+[{"id":"測試AUTONUMBER","commandText":"SELECT 編號,名稱 FROM [測試AUTONUMBER]","keys":"編號","type":"infocommand","selectPaging":true},{"id":"uc測試AUTONUMBER","infocommand":"測試AUTONUMBER","type":"updatecomponent"},{"id":"an測試AUTONUMBER","autoNoID":"an測試AUTONUMBER","updatecomponent":"uc測試AUTONUMBER","field":"編號","startValue":1,"step":1,"getFixed":"_YYYMMdd","numDig":3,"type":"autonumber"}]

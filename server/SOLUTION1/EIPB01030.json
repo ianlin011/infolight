@@ -1,0 +1,1 @@
+[{"id":"HRS_COMP","commandText":"SELECT ID_COMP,NM_COMP_S_C,NM_COMP_F_C,TAX_ID,TIN_ID,TEL_NO,FAX_NO,ADDR_C,NM_COMP_S_E,NM_COMP_F_E,ADDR_E,BANK_NO_C,ID_CREATE,ID_UPDATE,建檔日期,更新日期 FROM [HRS_COMP]","keys":"ID_COMP","type":"infocommand","selectPaging":true},{"id":"ucHRS_COMP","infocommand":"HRS_COMP","type":"updatecomponent"}]

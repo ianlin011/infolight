@@ -1,0 +1,1 @@
+[{"id":"測試井DC","commandText":"SELECT 編號,日期 FROM [測試井DC]","keys":"編號","type":"infocommand","selectPaging":true},{"id":"uc測試井DC","infocommand":"測試井DC","type":"updatecomponent"},{"id":"an測試井DC","autoNoID":"an測試井DC","updatecomponent":"uc測試井DC","field":"編號","startValue":1,"step":1,"getFixed":"","numDig":3,"type":"autonumber"}]

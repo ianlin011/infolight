@@ -1,0 +1,1 @@
+[{"id":"產品資料表","commandText":"SELECT 產品編號,產品名稱,產品類別,規格,產品說明,產地,單位,單價,成本價,廠商,最近售價,銷售日期,產品圖片,庫存量 FROM [產品資料表]","keys":"產品編號","type":"infocommand","selectPaging":true},{"id":"uc產品資料表","infocommand":"產品資料表","type":"updatecomponent"}]
