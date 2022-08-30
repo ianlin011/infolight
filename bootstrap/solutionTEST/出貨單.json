@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "dgMaster",
+    "remoteName": "出貨單.出貨單",
+    "columns": [
+      {
+        "title": "",
+        "field": "test",
+        "alignment": "",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "",
+        "formatter": "dgMaster_test_formatter",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": true,
+        "width": 26
+      },
+      {
+        "title": "出貨編號",
+        "field": "出貨編號",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "drilldown",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "日期",
+        "field": "日期",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "yyyy-MM-dd",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "報價單號",
+        "field": "報價單號",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "客戶編號",
+        "field": "客戶編號",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {
+          "remoteName": "出貨單.ref_客戶資料表",
+          "valueField": "客戶編號",
+          "textField": "名稱"
+        },
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "電話",
+        "field": "電話",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "名稱",
+        "field": "名稱",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "傳真",
+        "field": "傳真",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "地址",
+        "field": "地址",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "聯絡人",
+        "field": "聯絡人",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 45
+      },
+      {
+        "title": "發票地址",
+        "field": "發票地址",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "統一編號",
+        "field": "統一編號",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "倉庫",
+        "field": "倉庫",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "統計年月",
+        "field": "統計年月",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "送貨方式",
+        "field": "送貨方式",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "付款方式",
+        "field": "付款方式",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "合計未稅",
+        "field": "合計未稅",
+        "alignment": "right",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "稅額",
+        "field": "稅額",
+        "alignment": "right",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "總計含稅",
+        "field": "總計含稅",
+        "alignment": "right",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "備註",
+        "field": "備註",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "業務",
+        "field": "業務",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {
+          "remoteName": "出貨單.ref_員工資料表",
+          "valueField": "員工編號",
+          "textField": "姓名"
+        },
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "流程狀態",
+        "field": "FlowFlag",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "flowflag",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      }
+    ],
+    "whereStr": "",
+    "autoApply": true,
+    "validateXss": true,
+    "confirmDelete": true,
+    "duplicateCheck": true,
+    "editOnEnter": true,
+    "toolItems": [
+      {
+        "text": "Add",
+        "helpText": "",
+        "iconCls": "glyphicon-plus",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "insert_row"
+      },
+      {
+        "text": "Query",
+        "helpText": "",
+        "iconCls": "glyphicon-search",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "openQuery"
+      },
+      {
+        "text": "Print",
+        "helpText": "",
+        "iconCls": "glyphicon-export",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "exportWord"
+      },
+      {
+        "text": "推播",
+        "helpText": "",
+        "iconCls": "",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "myPush"
+      },
+      {
+        "text": "exportWordAll",
+        "helpText": "",
+        "iconCls": "",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "exportWordAll"
+      }
+    ],
+    "toolItemPosition": "top",
+    "viewCommandVisible": true,
+    "editCommandVisible": true,
+    "deleteCommandVisible": true,
+    "columnHidable": false,
+    "editForm": "dfMaster",
+    "parentObject": "",
+    "targetObject": "",
+    "targetDataGrid": "",
+    "whereItems": [],
+    "totalMode": "page",
+    "showColumnTitle": true,
+    "autoQueryColumn": true,
+    "queryColumns": [
+      {
+        "title": "出貨編號",
+        "field": "出貨編號",
+        "newRow": false,
+        "span": 1,
+        "operator": "%",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "出貨編號"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "日期大於",
+        "field": "日期",
+        "newRow": false,
+        "span": 1,
+        "operator": ">=",
+        "editor": {
+          "type": "datebox",
+          "format": "yyyy-mm-dd",
+          "readonly": false,
+          "field": "日期"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "日期小於",
+        "field": "日期",
+        "newRow": false,
+        "span": 1,
+        "operator": "<=",
+        "editor": {
+          "type": "datebox",
+          "format": "yyyy-mm-dd",
+          "readonly": false,
+          "field": "日期"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "客戶編號",
+        "field": "客戶編號",
+        "newRow": false,
+        "span": 1,
+        "operator": "%",
+        "editor": {
+          "type": "refval",
+          "pageSize": 10,
+          "queryMode": "fuzzy",
+          "checkData": true,
+          "remoteName": "出貨單.ref_客戶資料表",
+          "valueField": "客戶編號",
+          "valueTitle": "客戶編號",
+          "textField": "名稱",
+          "textTitle": "名稱",
+          "panelTitle": "客戶資料表",
+          "columns": [
+            {
+              "title": "客戶編號",
+              "field": "客戶編號"
+            },
+            {
+              "title": "名稱",
+              "field": "名稱"
+            },
+            {
+              "title": "日期",
+              "field": "日期",
+              "format": "yyyy-MM-dd"
+            }
+          ],
+          "columnMatchs": [],
+          "readonly": false,
+          "field": "客戶編號"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "名稱",
+        "field": "名稱",
+        "newRow": false,
+        "span": 1,
+        "operator": "%",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": true,
+          "field": "名稱"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "倉庫",
+        "field": "倉庫",
+        "newRow": true,
+        "span": 1,
+        "operator": "in",
+        "editor": {
+          "type": "combobox",
+          "remoteName": "",
+          "fromSysParameters": true,
+          "valueField": "",
+          "textField": "",
+          "items": [],
+          "whereItems": [],
+          "readonly": false,
+          "onBeforeLoad": "",
+          "onSelect": "",
+          "multiple": true,
+          "multipleSeparator": ","
+        },
+        "defaultValue": "function['get_d','']"
+      }
+    ],
+    "queryMode": "dialog",
+    "queryTitle": "出貨單查詢",
+    "queryColumnsCount": 2,
+    "showCheckbox": false,
+    "checkOnSelect": false,
+    "recordLock": false,
+    "pagination": true,
+    "pageJump": false,
+    "rownumbers": true,
+    "reportName": "",
+    "pageSize": 20,
+    "pageList": [],
+    "title": "出貨單",
+    "height": "",
+    "rowStyler": "",
+    "onBeforeLoad": "",
+    "onLoad": "dgMaster_onLoad",
+    "onLoadError": "",
+    "onSelect": "",
+    "onInsert": "",
+    "onUpdate": "",
+    "onDelete": "",
+    "onDeleted": "",
+    "onQuery": "",
+    "onImportExcelSuccess": "",
+    "onShowEditor": "",
+    "onEndEdit": "",
+    "onTotal": "",
+    "bordered": true,
+    "hover": true,
+    "striped": true,
+    "condensed": true,
+    "xsblock": true,
+    "simple": false,
+    "type": "datagrid"
+  },
+  {
+    "id": "dfMaster",
+    "remoteName": "出貨單.出貨單",
+    "columns": [
+      {
+        "title": "出貨編號",
+        "field": "出貨編號",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "出貨編號"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "*日期",
+        "field": "日期",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "datebox",
+          "format": "yyyy-mm-dd",
+          "readonly": false,
+          "field": "日期"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "報價單號",
+        "field": "報價單號",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "refval",
+          "remoteName": "出貨單.ref_報價單",
+          "valueField": "報價單號",
+          "textField": "報價單號",
+          "valueTitle": "報價單號",
+          "textTitle": "報價單號",
+          "columns": [
+            {
+              "title": "報價單號",
+              "field": "報價單號"
+            },
+            {
+              "title": "名稱",
+              "field": "名稱"
+            }
+          ],
+          "pageSize": 10,
+          "queryMode": "fuzzy",
+          "whereItems": [],
+          "columnMatchs": [
+            {
+              "sourceField": "客戶編號",
+              "targetField": "客戶編號"
+            },
+            {
+              "sourceField": "電話",
+              "targetField": "電話"
+            },
+            {
+              "sourceField": "名稱",
+              "targetField": "名稱"
+            },
+            {
+              "sourceField": "地址",
+              "targetField": "地址"
+            },
+            {
+              "sourceField": "聯絡人",
+              "targetField": "聯絡人"
+            },
+            {
+              "sourceField": "合計未稅",
+              "targetField": "合計未稅"
+            },
+            {
+              "sourceField": "稅額",
+              "targetField": "稅額"
+            }
+          ],
+          "showValueText": false,
+          "checkData": true,
+          "autoQueryColumn": false,
+          "panelTitle": "報價單",
+          "readonly": false,
+          "onFocus": "",
+          "onSelect": ""
+        },
+        "isMerge": false
+      },
+      {
+        "title": "*客戶編號123",
+        "field": "客戶編號",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "refval",
+          "remoteName": "出貨單.ref_客戶資料表",
+          "valueField": "客戶編號",
+          "textField": "名稱",
+          "valueTitle": "客戶編號",
+          "textTitle": "名稱",
+          "columns": [
+            {
+              "title": "客戶編號",
+              "field": "客戶編號",
+              "alignment": "",
+              "sortable": false,
+              "format": ""
+            },
+            {
+              "title": "名稱",
+              "field": "名稱",
+              "alignment": "",
+              "sortable": false,
+              "format": ""
+            },
+            {
+              "title": "日期",
+              "field": "日期",
+              "alignment": "",
+              "sortable": false,
+              "format": "yyyy/MM/dd"
+            }
+          ],
+          "pageSize": 10,
+          "queryMode": "fuzzy",
+          "whereItems": [],
+          "columnMatchs": [
+            {
+              "sourceField": "電話",
+              "targetField": "電話"
+            },
+            {
+              "sourceField": "名稱",
+              "targetField": "名稱"
+            },
+            {
+              "sourceField": "傳真",
+              "targetField": "傳真"
+            },
+            {
+              "sourceField": "地址",
+              "targetField": "地址"
+            },
+            {
+              "sourceField": "聯絡人",
+              "targetField": "聯絡人"
+            },
+            {
+              "sourceField": "統一編號",
+              "targetField": "統一編號"
+            },
+            {
+              "sourceField": "付款方式",
+              "targetField": "付款方式"
+            }
+          ],
+          "showValueText": false,
+          "checkData": true,
+          "autoQueryColumn": false,
+          "panelTitle": "客戶資料表",
+          "readonly": false,
+          "onFocus": "dfMaster_客戶編號_onFocus",
+          "onSelect": ""
+        },
+        "isMerge": false
+      },
+      {
+        "title": "電話",
+        "field": "電話",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "電話"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "名稱",
+        "field": "名稱",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": true,
+          "field": "名稱"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "傳真",
+        "field": "傳真",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "傳真"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "地址",
+        "field": "地址",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "地址"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "聯絡人",
+        "field": "聯絡人",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "聯絡人"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "發票地址",
+        "field": "發票地址",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "發票地址"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "統一編號",
+        "field": "統一編號",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "統一編號"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "倉庫",
+        "field": "倉庫",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "combobox",
+          "remoteName": "",
+          "fromSysParameters": true,
+          "valueField": "",
+          "textField": "",
+          "items": [],
+          "whereItems": [],
+          "readonly": false,
+          "onBeforeLoad": "",
+          "onSelect": "",
+          "multiple": false,
+          "multipleSeparator": ","
+        },
+        "isMerge": false
+      },
+      {
+        "title": "統計年月",
+        "field": "統計年月",
+        "newRow": false,
+        "span": 1,
+        "hidden": true,
+        "editor": {
+          "type": "dateselect",
+          "format": "YYYYMM",
+          "readonly": false,
+          "field": "統計年月"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "送貨方式",
+        "field": "送貨方式",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "options",
+          "mode": "button",
+          "multiple": false,
+          "showTextbox": true,
+          "items": [
+            {
+              "text": "親送",
+              "value": "親送"
+            },
+            {
+              "text": "郵寄",
+              "value": "郵寄"
+            },
+            {
+              "text": "快遞",
+              "value": "快遞"
+            },
+            {
+              "text": "便利商店",
+              "value": "便利商店"
+            },
+            {
+              "text": "其他",
+              "value": "其他"
+            }
+          ],
+          "readonly": false,
+          "field": "送貨方式"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "付款方式",
+        "field": "付款方式",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "options",
+          "mode": "button",
+          "multiple": false,
+          "showTextbox": true,
+          "items": [
+            {
+              "text": "現金",
+              "value": "現金"
+            },
+            {
+              "text": "信用卡",
+              "value": "信用卡"
+            },
+            {
+              "text": "月結支票",
+              "value": "月結支票"
+            },
+            {
+              "text": "月結電匯",
+              "value": "月結電匯"
+            },
+            {
+              "text": "其他",
+              "value": "其他"
+            }
+          ],
+          "readonly": false,
+          "field": "付款方式"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "流程狀態",
+        "field": "FlowFlag",
+        "newRow": false,
+        "span": 1,
+        "hidden": true,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 50,
+          "readonly": false,
+          "field": "FlowFlag"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "簽核對象",
+        "field": "簽核對象",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox"
+        },
+        "isMerge": true
+      },
+      {
+        "title": "上傳檔案",
+        "field": "上傳檔案",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "fileupload",
+          "folder": "",
+          "showType": "link",
+          "dataType": "url",
+          "readonly": false,
+          "editable": false,
+          "editHeight": "",
+          "isAutoNum": false,
+          "multiple": false,
+          "filter": "",
+          "compressRate": 1,
+          "SizeLimit": 0.005,
+          "AppCapture": false,
+          "onBeforeUpload": "",
+          "onSuccess": ""
+        },
+        "isMerge": true
+      },
+      {
+        "title": "上傳檔案2",
+        "field": "上傳檔案2",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "fileupload",
+          "folder": "",
+          "showType": "link",
+          "dataType": "blob",
+          "readonly": false,
+          "editable": false,
+          "editHeight": "",
+          "isAutoNum": false,
+          "multiple": false,
+          "filter": "",
+          "compressRate": 1,
+          "SizeLimit": 0.005,
+          "AppCapture": false,
+          "onBeforeUpload": "",
+          "onSuccess": ""
+        },
+        "isMerge": true
+      }
+    ],
+    "whereStr": "",
+    "horizontalColumnsCount": 2,
+    "mode": "dialog",
+    "fit": true,
+    "toolItems": [
+      {
+        "text": "Add",
+        "helpText": "",
+        "iconCls": "glyphicon-plus",
+        "iconAlign": "left",
+        "btnCls": "",
+        "hidden": false,
+        "onclick": "insert_row"
+      }
+    ],
+    "toolItemPosition": "top",
+    "title": "出貨單",
+    "queryColumns": [],
+    "queryMode": "dialog",
+    "queryTitle": "出貨單查詢",
+    "queryColumnsCount": 2,
+    "duplicateCheck": true,
+    "validateStyle": "dialog",
+    "closeProtect": false,
+    "autocomplete": false,
+    "isShowFlowIcon": true,
+    "autoPause": false,
+    "onLoad": "dfMaster_onLoad",
+    "onDelete": "",
+    "onApply": "dfMaster_onApply",
+    "onApplied": "dfMaster_onApplied",
+    "onCancel": "",
+    "type": "dataform",
+    "childrens": [
+      {
+        "id": "dgDetail",
+        "remoteName": "出貨單.出貨單明細",
+        "columns": [
+          {
+            "title": "出貨編號",
+            "field": "出貨編號",
+            "alignment": "left",
+            "nowrap": false,
+            "hidden": true,
+            "sortable": false,
+            "total": "none",
+            "showxs": true,
+            "showsm": true,
+            "format": "",
+            "formatter": "",
+            "editor": {
+              "type": "textbox",
+              "maxLength": 30,
+              "readonly": false,
+              "field": "出貨編號"
+            },
+            "relation": {},
+            "isMerge": false,
+            "width": 57
+          },
+          {
+            "title": "產品編號",
+            "field": "產品編號",
+            "alignment": "left",
+            "nowrap": false,
+            "hidden": false,
+            "sortable": false,
+            "total": "none",
+            "showxs": true,
+            "showsm": true,
+            "format": "",
+            "formatter": "",
+            "editor": {
+              "type": "refval",
+              "remoteName": "出貨單.ref_報價單明細",
+              "valueField": "產品編號",
+              "textField": "產品名稱",
+              "valueTitle": "產品編號",
+              "textTitle": "產品名稱",
+              "columns": [
+                {
+                  "field": "產品編號",
+                  "title": "產品編號"
+                },
+                {
+                  "field": "產品名稱",
+                  "title": "產品名稱"
+                },
+                {
+                  "field": "數量",
+                  "title": "數量"
+                },
+                {
+                  "field": "單位",
+                  "title": "單位"
+                },
+                {
+                  "field": "單價",
+                  "title": "單價"
+                },
+                {
+                  "field": "小計",
+                  "title": "小計"
+                },
+                {
+                  "title": "產品類別",
+                  "field": "產品類別",
+                  "format": ""
+                }
+              ],
+              "pageSize": 10,
+              "queryMode": "fuzzy",
+              "whereItems": [
+                {
+                  "field": "報價單號",
+                  "operator": "=",
+                  "value": "parent['報價單號']"
+                }
+              ],
+              "columnMatchs": [
+                {
+                  "sourceField": "產品名稱",
+                  "targetField": "產品名稱"
+                },
+                {
+                  "sourceField": "數量",
+                  "targetField": "數量"
+                },
+                {
+                  "sourceField": "單位",
+                  "targetField": "單位"
+                },
+                {
+                  "sourceField": "單價",
+                  "targetField": "單價"
+                },
+                {
+                  "sourceField": "小計",
+                  "targetField": "小計"
+                }
+              ],
+              "showValueText": false,
+              "checkData": false,
+              "autoQueryColumn": false,
+              "panelTitle": "報價單",
+              "readonly": false,
+              "onFocus": "",
+              "onSelect": ""
+            },
+            "relation": {},
+            "isMerge": false,
+            "width": 57
+          },
+          {
+            "title": "產品名稱",
+            "field": "產品名稱",
+            "alignment": "left",
+            "nowrap": false,
+            "hidden": false,
+            "sortable": false,
+            "total": "none",
+            "showxs": true,
+            "showsm": true,
+            "format": "",
+            "formatter": "",
+            "editor": {
+              "type": "textbox",
+              "maxLength": 30,
+              "readonly": false,
+              "field": "產品名稱"
+            },
+            "relation": {},
+            "isMerge": false,
+            "width": 57
+          },
+          {
+            "title": "數量",
+            "field": "數量",
+            "alignment": "right",
+            "nowrap": false,
+            "hidden": false,
+            "sortable": false,
+            "total": "none",
+            "showxs": true,
+            "showsm": true,
+            "format": "",
+            "formatter": "",
+            "editor": {
+              "type": "numberbox",
+              "min": "",
+              "max": "",
+              "format": "",
+              "readonly": false,
+              "field": "數量"
+            },
+            "relation": {},
+            "isMerge": false,
+            "width": 33
+          },
+          {
+            "title": "單位",
+            "field": "單位",
+            "alignment": "left",
+            "nowrap": false,
+            "hidden": false,
+            "sortable": false,
+            "total": "none",
+            "showxs": true,
+            "showsm": true,
+            "format": "",
+            "formatter": "",
+            "editor": {
+              "type": "textbox",
+              "maxLength": 30,
+              "readonly": false,
+              "field": "單位"
+            },
+            "relation": {},
+            "isMerge": false,
+            "width": 33
+          },
+          {
+            "title": "單價",
+            "field": "單價",
+            "alignment": "right",
+            "nowrap": false,
+            "hidden": false,
+            "sortable": false,
+            "total": "none",
+            "showxs": true,
+            "showsm": true,
+            "format": "",
+            "formatter": "",
+            "editor": {
+              "type": "numberbox",
+              "min": "",
+              "max": "",
+              "format": "",
+              "readonly": false,
+              "field": "單價"
+            },
+            "relation": {},
+            "isMerge": false,
+            "width": 33
+          },
+          {
+            "title": "小計",
+            "field": "小計",
+            "alignment": "right",
+            "nowrap": false,
+            "hidden": false,
+            "sortable": false,
+            "total": "sum",
+            "showxs": true,
+            "showsm": true,
+            "format": "",
+            "formatter": "",
+            "editor": {
+              "type": "numberbox",
+              "min": "",
+              "max": "",
+              "format": "",
+              "readonly": false,
+              "field": "小計"
+            },
+            "relation": {},
+            "isMerge": false,
+            "width": 33
+          }
+        ],
+        "whereStr": "",
+        "autoApply": false,
+        "validateXss": true,
+        "confirmDelete": true,
+        "duplicateCheck": true,
+        "editOnEnter": true,
+        "toolItems": [
+          {
+            "text": "Add",
+            "helpText": "",
+            "iconCls": "glyphicon-plus",
+            "iconAlign": "left",
+            "btnCls": "btn-default",
+            "hidden": false,
+            "onclick": "insert_row"
+          },
+          {
+            "text": "Ok",
+            "helpText": "",
+            "iconCls": "glyphicon-ok",
+            "iconAlign": "left",
+            "btnCls": "btn-default",
+            "hidden": false,
+            "onclick": "endEdit"
+          },
+          {
+            "text": "Cancel",
+            "helpText": "",
+            "iconCls": "glyphicon-remove",
+            "iconAlign": "left",
+            "btnCls": "btn-default",
+            "hidden": false,
+            "onclick": "cancelEdit"
+          },
+          {
+            "text": "整批新增",
+            "helpText": "",
+            "iconCls": "glyphicon-plus",
+            "iconAlign": "left",
+            "btnCls": "btn-default",
+            "hidden": false,
+            "onclick": "openMove"
+          },
+          {
+            "text": "testf",
+            "helpText": "",
+            "iconCls": "",
+            "iconAlign": "left",
+            "btnCls": "btn-default",
+            "hidden": false,
+            "onclick": "testf"
+          },
+          {
+            "text": "f_submit",
+            "helpText": "",
+            "iconCls": "",
+            "iconAlign": "left",
+            "btnCls": "btn-default",
+            "hidden": false,
+            "onclick": "f_submit"
+          },
+          {
+            "text": "改變remotename",
+            "helpText": "",
+            "iconCls": "",
+            "iconAlign": "left",
+            "btnCls": "btn-default",
+            "hidden": false,
+            "onclick": "change_rn"
+          }
+        ],
+        "toolItemPosition": "top",
+        "viewCommandVisible": false,
+        "editCommandVisible": false,
+        "deleteCommandVisible": true,
+        "columnHidable": false,
+        "editForm": "",
+        "parentObject": "dfMaster",
+        "targetObject": "",
+        "targetDataGrid": "",
+        "whereItems": [],
+        "totalMode": "page",
+        "showColumnTitle": true,
+        "autoQueryColumn": true,
+        "queryColumns": [],
+        "queryMode": "dialog",
+        "queryTitle": "出貨單明細查詢",
+        "queryColumnsCount": 2,
+        "showCheckbox": false,
+        "checkOnSelect": false,
+        "recordLock": false,
+        "pagination": false,
+        "pageJump": false,
+        "rownumbers": false,
+        "reportName": "",
+        "pageSize": 10,
+        "pageList": [],
+        "title": "出貨單明細",
+        "height": "",
+        "rowStyler": "",
+        "onBeforeLoad": "",
+        "onLoad": "",
+        "onLoadError": "",
+        "onSelect": "",
+        "onInsert": "",
+        "onUpdate": "",
+        "onDelete": "dgDetail_onDelete",
+        "onDeleted": "",
+        "onQuery": "",
+        "onImportExcelSuccess": "",
+        "onShowEditor": "dgDetail_onShowEditor",
+        "onEndEdit": "",
+        "onTotal": "",
+        "bordered": true,
+        "hover": true,
+        "striped": true,
+        "condensed": true,
+        "xsblock": false,
+        "simple": false,
+        "type": "datagrid"
+      },
+      {
+        "id": "dpMaster2",
+        "remoteName": "出貨單.出貨單",
+        "columns": [
+          {
+            "title": "合計未稅",
+            "field": "合計未稅",
+            "newRow": false,
+            "span": 1,
+            "hidden": false,
+            "editor": {
+              "type": "numberbox",
+              "min": "",
+              "max": "",
+              "format": "",
+              "readonly": false,
+              "field": "合計未稅"
+            },
+            "isMerge": false
+          },
+          {
+            "title": "稅額",
+            "field": "稅額",
+            "newRow": false,
+            "span": 1,
+            "hidden": false,
+            "editor": {
+              "type": "numberbox",
+              "min": "",
+              "max": "",
+              "format": "",
+              "readonly": false,
+              "field": "稅額"
+            },
+            "isMerge": false
+          },
+          {
+            "title": "總計含稅",
+            "field": "總計含稅",
+            "newRow": false,
+            "span": 1,
+            "hidden": false,
+            "editor": {
+              "type": "numberbox",
+              "min": "",
+              "max": 100,
+              "textAlign": "right",
+              "format": "N0",
+              "readonly": false
+            },
+            "isMerge": false
+          },
+          {
+            "title": "備註",
+            "field": "備註",
+            "newRow": true,
+            "span": 2,
+            "hidden": false,
+            "editor": {
+              "type": "textbox",
+              "maxLength": 60,
+              "readonly": false,
+              "field": "備註"
+            },
+            "isMerge": false
+          },
+          {
+            "title": "業務",
+            "field": "業務",
+            "newRow": false,
+            "span": 1,
+            "hidden": false,
+            "editor": {
+              "type": "refval",
+              "pageSize": 10,
+              "queryMode": "fuzzy",
+              "checkData": true,
+              "remoteName": "出貨單.ref_員工資料表",
+              "valueField": "員工編號",
+              "valueTitle": "員工編號",
+              "textField": "姓名",
+              "textTitle": "姓名",
+              "panelTitle": "員工資料表",
+              "columns": [
+                {
+                  "title": "員工編號",
+                  "field": "員工編號"
+                },
+                {
+                  "title": "姓名",
+                  "field": "姓名"
+                },
+                {
+                  "title": "身分證號",
+                  "field": "身分證號",
+                  "format": ""
+                }
+              ],
+              "columnMatchs": [],
+              "readonly": false,
+              "field": "業務"
+            },
+            "isMerge": false
+          }
+        ],
+        "horizontalColumnsCount": 2,
+        "title": "",
+        "type": "datapanel"
+      }
+    ]
+  },
+  {
+    "id": "dfDetail",
+    "remoteName": "出貨單.出貨單明細",
+    "columns": [
+      {
+        "field": "出貨編號",
+        "title": "出貨編號",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "出貨編號"
+        },
+        "span": 1,
+        "newRow": true,
+        "hidden": true,
+        "isMerge": false
+      },
+      {
+        "field": "產品編號",
+        "title": "產品編號",
+        "editor": {
+          "type": "refval",
+          "pageSize": 10,
+          "queryMode": "fuzzy",
+          "checkData": true,
+          "remoteName": "出貨單.ref_報價單明細",
+          "valueField": "產品編號",
+          "valueTitle": "產品編號",
+          "textField": "產品編號",
+          "textTitle": "產品編號",
+          "panelTitle": "報價單",
+          "columns": [
+            {
+              "field": "產品編號",
+              "title": "產品編號"
+            },
+            {
+              "field": "產品名稱",
+              "title": "產品名稱"
+            },
+            {
+              "field": "數量",
+              "title": "數量"
+            },
+            {
+              "field": "單位",
+              "title": "單位"
+            },
+            {
+              "field": "單價",
+              "title": "單價"
+            },
+            {
+              "field": "小計",
+              "title": "小計"
+            },
+            {
+              "title": "產品類別",
+              "field": "產品類別",
+              "format": ""
+            }
+          ],
+          "columnMatchs": [
+            {
+              "sourceField": "產品名稱",
+              "targetField": "產品名稱"
+            },
+            {
+              "sourceField": "數量",
+              "targetField": "數量"
+            },
+            {
+              "sourceField": "單位",
+              "targetField": "單位"
+            },
+            {
+              "sourceField": "單價",
+              "targetField": "單價"
+            },
+            {
+              "sourceField": "小計",
+              "targetField": "小計"
+            }
+          ],
+          "whereItems": [
+            {
+              "field": "報價單號",
+              "operator": "=",
+              "value": "parent['報價單號']"
+            }
+          ],
+          "readonly": false,
+          "field": "產品編號"
+        },
+        "span": 1,
+        "newRow": false,
+        "hidden": false,
+        "isMerge": false
+      },
+      {
+        "field": "產品名稱",
+        "title": "產品名稱",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "產品名稱"
+        },
+        "span": 1,
+        "newRow": false,
+        "hidden": false,
+        "isMerge": false
+      },
+      {
+        "field": "數量",
+        "title": "數量",
+        "editor": {
+          "type": "numberbox",
+          "min": "",
+          "max": "",
+          "format": "",
+          "readonly": false,
+          "field": "數量"
+        },
+        "span": 1,
+        "newRow": false,
+        "hidden": false,
+        "isMerge": false
+      },
+      {
+        "field": "單位",
+        "title": "單位",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "單位"
+        },
+        "span": 1,
+        "newRow": false,
+        "hidden": false,
+        "isMerge": false
+      },
+      {
+        "field": "單價",
+        "title": "單價",
+        "editor": {
+          "type": "numberbox",
+          "min": "",
+          "max": "",
+          "format": "",
+          "readonly": false,
+          "field": "單價"
+        },
+        "span": 1,
+        "newRow": false,
+        "hidden": false,
+        "isMerge": false
+      },
+      {
+        "field": "小計",
+        "title": "小計",
+        "editor": {
+          "type": "numberbox",
+          "min": "",
+          "max": "",
+          "format": "",
+          "readonly": false,
+          "field": "小計"
+        },
+        "span": 1,
+        "newRow": false,
+        "hidden": false,
+        "isMerge": false
+      }
+    ],
+    "whereStr": "",
+    "horizontalColumnsCount": 2,
+    "mode": "dialog",
+    "fit": true,
+    "toolItems": [],
+    "toolItemPosition": "top",
+    "title": "出貨單明細",
+    "queryColumns": [],
+    "queryMode": "dialog",
+    "queryTitle": "出貨單明細查詢",
+    "queryColumnsCount": 2,
+    "duplicateCheck": false,
+    "validateStyle": "hint",
+    "closeProtect": false,
+    "autocomplete": false,
+    "isShowFlowIcon": false,
+    "autoPause": true,
+    "onLoad": "",
+    "onDelete": "",
+    "onApply": "",
+    "onApplied": "",
+    "onCancel": "",
+    "type": "dataform",
+    "childrens": []
+  },
+  {
+    "id": "deMaster",
+    "bindingObject": "dfMaster",
+    "columns": [
+      {
+        "title": "出貨編號",
+        "field": "出貨編號",
+        "defaultValue": "constant['自動編號']"
+      },
+      {
+        "title": "日期",
+        "field": "日期",
+        "defaultValue": "varaible['today']"
+      },
+      {
+        "title": "倉庫",
+        "field": "倉庫",
+        "defaultValue": "function['get_d','']"
+      },
+      {
+        "title": "送貨方式",
+        "field": "送貨方式",
+        "defaultValue": "constant['親送']"
+      },
+      {
+        "title": "付款方式",
+        "field": "付款方式",
+        "defaultValue": "constant['現金']"
+      },
+      {
+        "title": "備註",
+        "field": "備註",
+        "defaultValue": "constant['自正式出貨日起算提供一年免費維護服務，第二年起每年維護費用軟體定價之20%(未稅)。']"
+      }
+    ],
+    "type": "default"
+  },
+  {
+    "id": "vaMaster",
+    "bindingObject": "dfMaster",
+    "columns": [
+      {
+        "title": "出貨編號",
+        "field": "出貨編號",
+        "required": true,
+        "validType": ""
+      },
+      {
+        "title": "日期",
+        "field": "日期",
+        "required": true,
+        "validType": ""
+      },
+      {
+        "title": "客戶編號",
+        "field": "客戶編號",
+        "required": true,
+        "validType": ""
+      },
+      {
+        "title": "名稱",
+        "field": "名稱",
+        "required": true,
+        "validType": ""
+      },
+      {
+        "title": "統一編號",
+        "field": "統一編號",
+        "required": false,
+        "validType": ""
+      }
+    ],
+    "type": "validate"
+  },
+  {
+    "id": "vaDetail",
+    "bindingObject": "dgDetail",
+    "columns": [
+      {
+        "field": "出貨編號",
+        "title": "出貨編號",
+        "required": true,
+        "validType": ""
+      },
+      {
+        "field": "產品編號",
+        "title": "產品編號",
+        "required": true,
+        "validType": ""
+      },
+      {
+        "field": "產品名稱",
+        "title": "產品名稱",
+        "required": true,
+        "validType": ""
+      }
+    ],
+    "type": "validate"
+  },
+  {
+    "id": "foMaster",
+    "bindingObject": "dfMaster",
+    "columns": [
+      {
+        "targetField": "發票地址",
+        "title": "發票地址",
+        "expression": "地址"
+      },
+      {
+        "targetField": "合計未稅",
+        "title": "合計未稅",
+        "expression": "dgDetail.Total.小計"
+      },
+      {
+        "targetField": "稅額",
+        "title": "稅額",
+        "expression": "合計未稅*0.05"
+      },
+      {
+        "targetField": "總計含稅",
+        "title": "總計含稅",
+        "expression": "合計未稅+稅額"
+      }
+    ],
+    "type": "fieldonblur"
+  },
+  {
+    "id": "foDetail",
+    "bindingObject": "dgDetail",
+    "columns": [
+      {
+        "targetField": "小計",
+        "title": "小計",
+        "expression": "數量*單價"
+      }
+    ],
+    "type": "fieldonblur"
+  },
+  {
+    "id": "cmDetail",
+    "title": "整批新增",
+    "remoteName": "報價單.報價單明細",
+    "columns": [
+      {
+        "title": "產品編號",
+        "field": "產品編號",
+        "format": ""
+      },
+      {
+        "title": "產品名稱",
+        "field": "產品名稱",
+        "format": ""
+      },
+      {
+        "title": "數量",
+        "field": "數量",
+        "format": ""
+      },
+      {
+        "title": "單位",
+        "field": "單位",
+        "format": ""
+      },
+      {
+        "title": "單價",
+        "field": "單價",
+        "format": ""
+      },
+      {
+        "title": "小計",
+        "field": "小計",
+        "format": ""
+      }
+    ],
+    "pageSize": 10,
+    "pageList": [],
+    "height": "",
+    "whereItems": [
+      {
+        "field": "報價單號",
+        "operator": "=",
+        "value": "parent['報價單號']"
+      }
+    ],
+    "alwaysInsert": true,
+    "triggerExpression": true,
+    "targetDataGrid": "dgDetail",
+    "keyFields": [],
+    "columnMatchs": [
+      {
+        "targetField": "產品編號",
+        "sourceField": "產品編號"
+      },
+      {
+        "targetField": "產品名稱",
+        "sourceField": "產品名稱"
+      },
+      {
+        "targetField": "數量",
+        "sourceField": "數量"
+      },
+      {
+        "targetField": "單位",
+        "sourceField": "單位"
+      },
+      {
+        "targetField": "單價",
+        "sourceField": "單價"
+      },
+      {
+        "targetField": "小計",
+        "sourceField": "小計"
+      }
+    ],
+    "type": "clientmove"
+  },
+  {
+    "id": "Literal1",
+    "html": "<style>\n@media (min-width: 768px) {\n.form-horizontal .control-label {\n    text-align: right;\n    }\n}\n</style>",
+    "type": "literal"
+  },
+  {
+    "id": "DataForm1",
+    "remoteName": "",
+    "columns": [],
+    "whereStr": "",
+    "horizontalColumnsCount": 1,
+    "mode": "dialog",
+    "fit": false,
+    "toolItems": [],
+    "toolItemPosition": "top",
+    "title": "",
+    "queryColumns": [],
+    "queryMode": "dialog",
+    "queryTitle": "",
+    "queryColumnsCount": 2,
+    "duplicateCheck": false,
+    "validateStyle": "hint",
+    "closeProtect": false,
+    "autocomplete": false,
+    "isShowFlowIcon": false,
+    "autoPause": true,
+    "onLoad": "",
+    "onDelete": "",
+    "onApply": "",
+    "onApplied": "",
+    "onCancel": "",
+    "type": "dataform",
+    "childrens": []
+  },
+  {
+    "id": "Drilldown1",
+    "bindingObject": "dgMaster",
+    "columns": [
+      {
+        "field": "出貨編號",
+        "operator": "=",
+        "targetField": "出貨編號"
+      }
+    ],
+    "mode": "window",
+    "targetRemoteName": "出貨單.出貨單",
+    "targetColumns": [],
+    "dialogStyle": "large",
+    "page": "出貨單",
+    "pageTitle": "Drilldown",
+    "pageOpenForm": true,
+    "checkMenuRight": false,
+    "onFormat": "",
+    "onClick": "",
+    "type": "drilldown"
+  }
+]
