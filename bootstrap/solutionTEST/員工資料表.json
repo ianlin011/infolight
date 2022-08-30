@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "dgMaster",
+    "remoteName": "員工資料表.員工資料表",
+    "columns": [
+      {
+        "title": "",
+        "field": "btn_test",
+        "alignment": "",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "",
+        "formatter": "dgMaster_btn_test_formatter",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": true,
+        "width": 47
+      },
+      {
+        "title": "員工編號",
+        "field": "員工編號",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "",
+        "formatter": "dgMaster_員工編號_formatter",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "建檔日期",
+        "field": "建檔日期",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "yyyy/MM/dd",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "姓名",
+        "field": "姓名",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "相片",
+        "field": "相片",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "image,Images",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "英文姓名",
+        "field": "英文姓名",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "身分證號",
+        "field": "身分證號",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "電郵信箱",
+        "field": "電郵信箱",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "到職日期",
+        "field": "到職日期",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": true,
+        "showsm": true,
+        "format": "yyyy/MM/dd",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "戶籍地址",
+        "field": "戶籍地址",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "出生年月日",
+        "field": "出生年月日",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": false,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 69
+      },
+      {
+        "title": "性別",
+        "field": "性別",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "通訊地址",
+        "field": "通訊地址",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "血型",
+        "field": "血型",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "聯絡電話(H)",
+        "field": "聯絡電話_H_",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 74
+      },
+      {
+        "title": "婚姻狀況",
+        "field": "婚姻狀況",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "聯絡電話(M)",
+        "field": "聯絡電話_M_",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 76
+      },
+      {
+        "title": "兵種階級",
+        "field": "兵種階級",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "服役期間",
+        "field": "服役期間",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "駕駛執照",
+        "field": "駕駛執照",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "緊急聯絡人",
+        "field": "緊急聯絡人",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 69
+      },
+      {
+        "title": "學歷",
+        "field": "學歷",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 33
+      },
+      {
+        "title": "外語能力",
+        "field": "外語能力",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      },
+      {
+        "title": "其他專長及相關證照",
+        "field": "其他專長及相關證照",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 117
+      },
+      {
+        "title": "家庭狀況",
+        "field": "家庭狀況",
+        "alignment": "left",
+        "nowrap": false,
+        "hidden": true,
+        "sortable": false,
+        "total": "none",
+        "showxs": false,
+        "showsm": true,
+        "format": "",
+        "formatter": "",
+        "editor": {
+          "type": "textbox"
+        },
+        "relation": {},
+        "isMerge": false,
+        "width": 57
+      }
+    ],
+    "whereStr": "",
+    "autoApply": true,
+    "validateXss": true,
+    "confirmDelete": true,
+    "duplicateCheck": false,
+    "editOnEnter": true,
+    "toolItems": [
+      {
+        "text": "Add",
+        "helpText": "",
+        "iconCls": "glyphicon-plus",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "insert_row"
+      },
+      {
+        "text": "Query",
+        "helpText": "",
+        "iconCls": "glyphicon-search",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "openQuery"
+      },
+      {
+        "text": "exportWord_test",
+        "helpText": "",
+        "iconCls": "glyphicon-export",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "exportWord_test"
+      },
+      {
+        "text": "exportWord_test2",
+        "helpText": "",
+        "iconCls": "",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "exportWord_test2"
+      },
+      {
+        "text": "刷新待辦",
+        "helpText": "",
+        "iconCls": "",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "reloadtodo"
+      },
+      {
+        "text": "取自動編號",
+        "helpText": "",
+        "iconCls": "",
+        "iconAlign": "left",
+        "btnCls": "btn-default",
+        "hidden": false,
+        "onclick": "dosql"
+      }
+    ],
+    "toolItemPosition": "top",
+    "viewCommandVisible": true,
+    "editCommandVisible": true,
+    "deleteCommandVisible": true,
+    "columnHidable": false,
+    "editForm": "dfMaster",
+    "parentObject": "",
+    "targetObject": "",
+    "targetDataGrid": "",
+    "whereItems": [],
+    "totalMode": "page",
+    "showColumnTitle": true,
+    "autoQueryColumn": true,
+    "queryColumns": [
+      {
+        "title": "員工編號",
+        "field": "員工編號",
+        "newRow": false,
+        "span": 1,
+        "operator": "%%",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "員工編號"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "姓名",
+        "field": "姓名",
+        "newRow": false,
+        "span": 1,
+        "operator": "%",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "姓名"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "身分證號",
+        "field": "身分證號",
+        "newRow": false,
+        "span": 1,
+        "operator": "%",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "身分證號"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "到職日期大於",
+        "field": "到職日期",
+        "newRow": false,
+        "span": 1,
+        "operator": ">=",
+        "editor": {
+          "type": "datebox",
+          "format": "yyyy/mm/dd",
+          "readonly": false,
+          "field": "到職日期"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "到職日期小於",
+        "field": "到職日期",
+        "newRow": false,
+        "span": 1,
+        "operator": "<=",
+        "editor": {
+          "type": "datebox",
+          "format": "yyyy/mm/dd",
+          "readonly": false,
+          "field": "到職日期"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "通訊地址",
+        "field": "通訊地址",
+        "newRow": false,
+        "span": 1,
+        "operator": "%",
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "通訊地址"
+        },
+        "defaultValue": ""
+      },
+      {
+        "title": "出生年月日",
+        "field": "出生年月日",
+        "newRow": true,
+        "span": 1,
+        "operator": "=",
+        "editor": {
+          "type": "dateselect",
+          "format": "民國YYY年MM月DD日",
+          "yearRangeFrom": "",
+          "yearRangeTo": "",
+          "year": "",
+          "month": "",
+          "day": "",
+          "readonly": false
+        },
+        "defaultValue": ""
+      }
+    ],
+    "queryMode": "dialog",
+    "queryTitle": "員工資料表查詢",
+    "queryColumnsCount": 2,
+    "showCheckbox": true,
+    "checkOnSelect": false,
+    "recordLock": false,
+    "pagination": true,
+    "pageJump": false,
+    "rownumbers": false,
+    "reportName": "",
+    "pageSize": 10,
+    "pageList": [],
+    "title": "員工資料表",
+    "height": "",
+    "rowStyler": "dgMaster_rowStyler",
+    "onBeforeLoad": "dgMaster_onBeforeLoad",
+    "onLoad": "dgMaster_onLoad",
+    "onLoadError": "",
+    "onSelect": "",
+    "onInsert": "",
+    "onUpdate": "",
+    "onDelete": "",
+    "onDeleted": "",
+    "onQuery": "",
+    "onImportExcelSuccess": "",
+    "onShowEditor": "",
+    "onEndEdit": "",
+    "onTotal": "",
+    "bordered": true,
+    "hover": true,
+    "striped": true,
+    "condensed": true,
+    "xsblock": true,
+    "simple": false,
+    "type": "datagrid"
+  },
+  {
+    "id": "dfMaster",
+    "remoteName": "員工資料表.員工資料表",
+    "columns": [
+      {
+        "title": "員工編號",
+        "field": "員工編號",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "員工編號"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "建檔日期",
+        "field": "建檔日期",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "datebox",
+          "format": "yyyy/mm/dd",
+          "dataType": "datetime",
+          "selectOnly": false,
+          "pickerPosition": "",
+          "readonly": false,
+          "onSelect": "dfMaster_建檔日期_onSelect"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "*姓名",
+        "field": "姓名",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "textAlign": "left",
+          "prompt": "",
+          "readonly": false,
+          "iconCls": "",
+          "onBlur": "dfMaster_姓名_onBlur"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "相片",
+        "field": "相片",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "fileupload",
+          "folder": "Files/test2",
+          "showType": "image",
+          "dataType": "url",
+          "readonly": false,
+          "editable": false,
+          "editHeight": 1000,
+          "isAutoNum": false,
+          "multiple": false,
+          "filter": "",
+          "compressRate": 1,
+          "SizeLimit": "",
+          "AppCapture": true,
+          "onBeforeUpload": "",
+          "onSuccess": ""
+        },
+        "isMerge": false
+      },
+      {
+        "title": "英文姓名",
+        "field": "英文姓名",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "英文姓名"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "*身分證號",
+        "field": "身分證號",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "textAlign": "left",
+          "prompt": "",
+          "readonly": false,
+          "iconCls": "",
+          "onBlur": "dfMaster_身分證號_onBlur"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "電郵信箱",
+        "field": "電郵信箱",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "電郵信箱"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "*到職日期",
+        "field": "到職日期",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "datebox",
+          "format": "yyyy/mm/dd",
+          "dataType": "datetime",
+          "selectOnly": false,
+          "pickerPosition": "",
+          "readonly": false,
+          "onSelect": "dfMaster_到職日期_onSelect"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "戶籍地址",
+        "field": "戶籍地址",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "戶籍地址"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "出生年月日",
+        "field": "出生年月日",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "dateselect",
+          "format": "民國YYY年MM月DD日",
+          "yearRangeFrom": "-0",
+          "yearRangeTo": "+0",
+          "year": "",
+          "month": "",
+          "day": "",
+          "readonly": false
+        },
+        "isMerge": false
+      },
+      {
+        "title": "性別",
+        "field": "性別",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "switch",
+          "onValue": "男",
+          "onText": "男",
+          "offValue": "女",
+          "offText": "女",
+          "readonly": false,
+          "field": "性別"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "通訊地址",
+        "field": "通訊地址",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "通訊地址"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "血型",
+        "field": "血型",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "options",
+          "mode": "button",
+          "multiple": false,
+          "showTextbox": true,
+          "items": [
+            {
+              "text": "A",
+              "value": "A"
+            },
+            {
+              "text": "B",
+              "value": "B"
+            },
+            {
+              "text": "O",
+              "value": "O"
+            },
+            {
+              "text": "AB",
+              "value": "AB"
+            },
+            {
+              "text": "其他:",
+              "value": "其他:"
+            }
+          ],
+          "readonly": false,
+          "field": "血型"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "聯絡電話(H)",
+        "field": "聯絡電話_H_",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "textAlign": "left",
+          "prompt": "",
+          "readonly": false,
+          "iconCls": "",
+          "onBlur": ""
+        },
+        "isMerge": false
+      },
+      {
+        "title": "婚姻狀況",
+        "field": "婚姻狀況",
+        "newRow": true,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "switch",
+          "onValue": "已婚",
+          "onText": "已婚",
+          "offValue": "未婚",
+          "offText": "未婚",
+          "readonly": false,
+          "field": "婚姻狀況"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "聯絡電話(M)",
+        "field": "聯絡電話_M_",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "聯絡電話_M_"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "兵種階級",
+        "field": "兵種階級",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "兵種階級"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "服役期間",
+        "field": "服役期間",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 30,
+          "readonly": false,
+          "field": "服役期間"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "駕駛執照",
+        "field": "駕駛執照",
+        "newRow": false,
+        "span": 1,
+        "hidden": false,
+        "editor": {
+          "type": "options",
+          "mode": "button",
+          "multiple": false,
+          "items": [
+            {
+              "text": "聯結車",
+              "value": "聯結車"
+            },
+            {
+              "text": "大貨車",
+              "value": "大貨車"
+            },
+            {
+              "text": "普通小型車",
+              "value": "普通小型車"
+            },
+            {
+              "text": "機車",
+              "value": "機車"
+            }
+          ],
+          "readonly": false,
+          "field": "駕駛執照"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "緊急聯絡人",
+        "field": "緊急聯絡人",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "multiinput",
+          "separator": ",",
+          "items": [
+            {
+              "text": "姓名:",
+              "showTextbox": true
+            },
+            {
+              "text": "，關係:",
+              "showTextbox": true
+            },
+            {
+              "text": "，連絡電話H:",
+              "showTextbox": true
+            },
+            {
+              "text": "，M:",
+              "showTextbox": true
+            }
+          ],
+          "readonly": false,
+          "field": "緊急聯絡人"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "學歷",
+        "field": "學歷",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 60,
+          "readonly": false,
+          "field": "學歷"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "外語能力",
+        "field": "外語能力",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 60,
+          "prompt": "語文名稱，聽說讀寫",
+          "readonly": false,
+          "field": "外語能力"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "其他專長及相關證照",
+        "field": "其他專長及相關證照",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 60,
+          "readonly": false,
+          "field": "其他專長及相關證照"
+        },
+        "isMerge": false
+      },
+      {
+        "title": "家庭狀況",
+        "field": "家庭狀況",
+        "newRow": true,
+        "span": 2,
+        "hidden": false,
+        "editor": {
+          "type": "textbox",
+          "maxLength": 60,
+          "readonly": false,
+          "field": "家庭狀況"
+        },
+        "isMerge": false
+      }
+    ],
+    "whereStr": "",
+    "horizontalColumnsCount": 2,
+    "mode": "dialog",
+    "fit": true,
+    "toolItems": [],
+    "toolItemPosition": "top",
+    "title": "員工資料表",
+    "queryColumns": [],
+    "queryMode": "dialog",
+    "queryTitle": "員工資料表查詢",
+    "queryColumnsCount": 2,
+    "duplicateCheck": false,
+    "validateStyle": "dialog",
+    "closeProtect": false,
+    "autocomplete": false,
+    "isShowFlowIcon": true,
+    "autoPause": true,
+    "onLoad": "dfMaster_onLoad",
+    "onDelete": "",
+    "onApply": "",
+    "onApplied": "",
+    "onCancel": "",
+    "type": "dataform",
+    "childrens": [
+      {
+        "id": "Panel1",
+        "title": "",
+        "collapsed": false,
+        "hidden": false,
+        "background": "",
+        "type": "panel",
+        "childrens": [
+          {
+            "id": "Literal1",
+            "html": "<style>\n.bootstrap-datagrid.table-hidecommand th.command, .bootstrap-datagrid.table-hidecommand td.datagrid-command {\n   display: revert;\n}\n</style>\n<div id='t1'>test</div>",
+            "type": "literal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deMaster",
+    "bindingObject": "dfMaster",
+    "columns": [
+      {
+        "field": "員工編號",
+        "title": "員工編號",
+        "defaultValue": "constant['自動編號']"
+      },
+      {
+        "field": "建檔日期",
+        "title": "建檔日期",
+        "defaultValue": "varaible['today']"
+      },
+      {
+        "field": "到職日期",
+        "title": "到職日期",
+        "defaultValue": "varaible['today']"
+      },
+      {
+        "field": "性別",
+        "title": "性別",
+        "defaultValue": "constant['男']"
+      },
+      {
+        "field": "血型",
+        "title": "血型",
+        "defaultValue": "constant['A']"
+      },
+      {
+        "field": "婚姻狀況",
+        "title": "婚姻狀況",
+        "defaultValue": "constant['已婚']"
+      },
+      {
+        "field": "駕駛執照",
+        "title": "駕駛執照",
+        "defaultValue": "constant['聯結車']"
+      },
+      {
+        "field": "外語能力",
+        "title": "外語能力"
+      }
+    ],
+    "type": "default"
+  },
+  {
+    "id": "vaMaster",
+    "bindingObject": "dfMaster",
+    "columns": [
+      {
+        "field": "員工編號",
+        "title": "員工編號",
+        "required": true,
+        "validType": ""
+      },
+      {
+        "field": "姓名",
+        "title": "姓名",
+        "required": true,
+        "validType": ""
+      },
+      {
+        "field": "身分證號",
+        "title": "身分證號",
+        "required": true,
+        "validType": "tid"
+      },
+      {
+        "field": "電郵信箱",
+        "title": "電郵信箱",
+        "required": false,
+        "validType": "email"
+      },
+      {
+        "field": "到職日期",
+        "title": "到職日期",
+        "required": true,
+        "validType": ""
+      }
+    ],
+    "type": "validate"
+  },
+  {
+    "id": "FieldOnBlur1",
+    "bindingObject": "dfMaster",
+    "columns": [
+      {
+        "title": "英文姓名",
+        "targetField": "英文姓名",
+        "expression": "英文姓名.toUpperCase()"
+      },
+      {
+        "title": "通訊地址",
+        "targetField": "通訊地址",
+        "expression": "fo_test(聯絡電話_H_)"
+      }
+    ],
+    "type": "fieldonblur"
+  }
+]
